@@ -1,0 +1,118 @@
+#canvas-container{
+  padding:20px 0 15px 0;
+}
+#wrap{
+  height: 100vh;
+  background-image:url('../img/ricepaper-black.jpg');
+  overflow:hidden;
+}
+body{
+  overflow-y:hidden;
+}
+.ui-window{
+ width:200px;
+ position:absolute;
+ left:0px;
+}
+.ui-widget-header span{
+  float:right;
+}
+@font-face{
+ font-family: seagram;
+ src: url(./fonts/seagram.ttf);
+}
+[tabindex]{
+ outline: none !important;
+}
+#canvas-menu{
+  width:10%;
+}
+#canvas{
+  width: 100%;
+  height: 100%;
+}
+#left{
+	background-color: #279563;
+}
+#sidemenu{
+  height:100%;
+  width:50px;
+  background: rgba(99,99,99,0.1);
+}
+.icon-image{
+ opacity:0.5;
+}
+.icon-image:hover{
+ opacity:1;
+ cursor:pointer;
+}
+#sidemenu img{
+ display:none;
+ margin-left: auto;
+ margin-right: auto;
+}
+#sidemenu ul{
+  list-style: none;
+  padding:0px;
+  color:black;
+  height:100%
+
+}
+#sidemenu ul li{
+  width:100%;
+  text-align: center;
+}
+#itemlist{
+	background-color: #fff;
+	overflow-y: auto;
+	word-wrap: break-word;
+	margin: 10px 0;
+	border-radius: 5px;
+	overflow: hidden;
+}
+#itemlist li{
+	display: block;
+	list-style-type: none;
+	background-color: ;
+	border-bottom: thin dotted #333;
+	padding: 3px 5px;
+}
+#description{
+	background-color: #fff;
+	overflow-y: auto;
+	word-wrap: break-word;
+	margin: 10px 0;
+	padding: 5px;
+	border-radius: 5px;
+}
+#main{
+  box-shadow: 0 0 25px 5px #333;
+  margin-bottom: 150px;
+}
+#top{
+	border-bottom: thick solid #004526;
+	padding: 10px 0;
+	background: #e3e3e3;
+  box-shadow: 0 0 25px 5px #333;
+}
+#right{
+	background-color: #D89238;
+}
+#leftside{
+	width: 50%;
+	float: left;
+}
+#rightside{
+	width:50%;
+	float:left;
+}
+.line{
+	padding: 5px;
+	color: #641B00;
+	background: white;
+	font-size: 18px;
+	text-align: center;
+}
+.qty {
+     float:right;
+}

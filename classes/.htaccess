@@ -1,0 +1,4 @@
+<IfModule mod_php5.c>
+  php_value error_reporting 6143
+  php_flag display_errors 1
+</IfModule>

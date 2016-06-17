@@ -1,0 +1,26 @@
+#wrapper{
+	margin-top: 10px;
+}
+
+.clickable{
+	cursor: pointer;
+}
+
+.content_inside_wrap{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.half-size_box{
+	width: 40%;
+}
+
+#stat_wrapper{
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.inside_center{
+	text-align: center;
+}

@@ -1,0 +1,91 @@
+body{
+	background-image: url("../img/bg.jpg");
+	background-size: 100% auto;
+}
+
+.inner-container{
+	/*background-image: url("../img/ebg.png");*/
+	background-size: 110% 120%;	
+	background-position: 30%, 90%;
+	background-repeat: no-repeat;
+	padding:0px;
+	border-style: solid; border-width: 42px 43px 42px 42px; -moz-border-image: url(../img/border.png) 63 63 61 64 stretch; -webkit-border-image: url(../img/border.png) 63 63 61 64 stretch; -o-border-image: url(../img/border.png) 63 63 61 64 stretch; border-image: url(../img/border.png) 63 63 61 64 fill stretch;
+}
+
+#form{
+	height: 150px;
+	width: 300px;
+	background-color: red;
+	float: left;
+}
+
+#form-middle{
+	width: 50%;
+	margin: 0 auto;
+}
+
+#error_msg{
+	display: none;
+	color: red;
+}
+
+#avgstats{
+	height: 300px;
+	width:200px;
+	background-color: green;
+	float:left;
+}
+
+#abilityselect select{
+	width: 16%;
+}
+
+#abilitydropdown{
+display:none;
+width:180px;
+
+}
+#shownabilities{
+float:right;
+}
+
+#racedropdown{
+width:180px;
+
+}
+.statbutton{
+ width:25px;
+ height:25px;
+
+}
+#statsdisplay{
+display: none;
+width:170px;
+background-color: #302208;
+color: white;
+}
+td{
+  padding: 2px;
+}
+#racename{
+text-align:center;
+display:block;
+}
+ #shownabilities ul li {
+ 
+ text-align:center;
+   
+ 
+ }
+ #shownabilities ul li a{
+ font-weight:900;
+   
+ 
+ }
+ 
+
+ 
+ 
+ 
+ 
+ 

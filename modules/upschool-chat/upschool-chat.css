@@ -1,0 +1,25 @@
+#button-open span{
+ margin-left: 3px;
+}
+#chat-messages{
+ float:left;
+ width:100%;
+}
+#messages{
+ overflow-x:hidden;
+ overflow-y:auto;
+ word-break: break-word;
+ word-wrap: break-word;
+ float: left;
+ height:70%;
+ width:100%;
+}
+#textarea{
+ padding: 5px;
+ float:left;
+ height:30%;
+ width:100%;
+}
+#textarea textarea{
+ margin: 5px 0;
+}

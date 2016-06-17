@@ -1,0 +1,89 @@
+---Vysoká priorita---
+Kompletace create character //K
+Začít create session - úplně dole je k tomu nějáký povídání //K
+
+---Střední priorita---
+Fix vyjíždění podoken mimo hlavní okno
+Překopat okna do jednotlivých ZIPů
+Friendlist
+Chat i mimo hru
+základní settings
+Napsat validační třídu
+Admin page-
+	správa modulů 
+	globální nastavení
+
+
+---Nízká priorita---
+Sekce create character - přidat indikátor zbývajících stat bodů //K
+Custom theme pro JQuery UI
+
+---Moduly---
+Character, Inventory, Chat, Notepad - defaultní, napevno (plocha bez oken by asi postrádala smysl)
+modul mapa -
+	DM může vybrat ze svojí kolekce mapu a ukázat hráčům, něco ve stylu StarCraftu, mapa
+	bude komplet černá, dokud DM nezačne odkrývat části obrázku jak budou mít hráči zrovna vision
+	místa kudy dřív přošli, ale už tam nemají vision budou šedý -> pamatují si jak místo
+	vypadalo, ale už neví jestli se tam momentálně něco děje
+
+
+DM moduly -
+	Invite -
+		přizvat a vyhazovat lidi ze hry
+	Combat Manager -
+		čudlíky na generování různých zvířátek a řízení boje
+	Loot -
+		generovat loot - možná při generování zvážit lvl postavy, prostředí etc., než prostě plácnout
+		random loot (aby hráči nenacházeli šrot v lese, jako kouzelný martin)
+
+---Library---
+
+1. editor vlastního obsahu (pro DMka alespoň s půlkou mozku)
+
+2. k zakoupení (pro nekreativní kokoty)-
+	zvířátka
+	předměty
+	postavy
+	mapy
+	kompletní adventure (kombinace map, zvířátek a scriptů)
+
+---Nápady / Na schválení / Free mental diarrhea---
+
+
+
+CREATE SESSION-
+	DM pojmenuje a popíše session
+	vytvoří session a skrze DM modul přizve hráče z friendlistu (mluvili jsme o friendlistu? nevim, připíšu), nebo podle jména
+	možná by bylo fajn, kdyby měl pravomoc vynutit u hráče vytvoření nový postavy, lvl 1 po boku lvl 93 asi nebude moc fun
+	a když né vynutit novej char, tak alespoň character level rozsah
+	Hra běží, dokud je DM online, nebo neodejde ze hry
+	během hry může DM přizvat, nebo vyhodit kohokoli
+	možná udělat session list - DM by při vytváření nastavil radio "Public", nebo "Private"
+	Private hry by se neobjevovali v session listu a zval by jenom DM
+	u Public na druhou stranu může hráč najít hru v listu a poslat request o join DMku
+
+LIBRARY-
+	V knihovně prakticky nebude nic, co by se nedalo s trochou trpělivosti vytvořit v
+	editoru. bude to pro dacany, co nejsou chopný přijít s rozumným příběhem, nemají čas, nebo prostě chtějí podpořít project.
+	Nicméně moduly to jistí jako purchase-only content, přidal bych k tomu nějáký themes a vzhledový kokotiny - tituly za jméno (Hroy_the_destroyer: The Destroyer :D), rámečky etc.
+
+	Bude těžký synchronizovat moduly všech hráčů, takže bych to viděl tak, že dostupný moduly by vybíral DM na začátku ze svojí
+	knihovny a ty by během sessiony byly dostupný všem bez ohledu na to, jestli je mají, nebo nemají v knihovně.
+
+	tím potřeba koupě modulů pro hráče padá a s tím asi i nápad mikrotransakcí, těch 14 korun za měsíc asi stejně chybět nebude. ze začátku to bude k ničemu.
+
+	co takhle herní měna přerozdělovaná na základě hodnocení hráčů? mam takovej pocit, že na tom funguje LoLko, když hráče reportuje dostatečnej počet jiných hráčů, tak ho vyhodí. tady podle
+	uvážení dostane +, nebo - bodíky. Možná zavést comment sekci u profilu(jo a profily, potřebujem user profily!)
+
+	nebo se na to vysrat úplně a ve stylu ToS udělat pouze nákup vizuálních kokotin
+
+	áááá nebo udělat free a premium account
+
+	free-
+		session max. 3 lidi a DM
+		ostrouhanej výběr ras
+		omezená funkce editoru
+		etc.
+
+MODULY-
+	je asi pointless to dělat modulární, teda jestli nesestavíme API a nenecháme komunitu vyvíjet moduly

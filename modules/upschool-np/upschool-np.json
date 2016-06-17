@@ -1,0 +1,11 @@
+{
+  "name":"upschool-np",
+  "displayName":"UpSchool NPCs",
+  "posX":300,
+  "posY":0,
+  "width":300,
+  "height":"100%",
+  "disableSlide":false,
+  "disableClose":false,
+  "fixedPos":false
+}

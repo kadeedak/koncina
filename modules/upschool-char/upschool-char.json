@@ -1,0 +1,11 @@
+{
+  "name":"upschool-char",
+  "displayName":"UpSchool Char",
+  "posX":100,
+  "posY":0,
+  "width":300,
+  "height":"50%",
+  "disableSlide":false,
+  "disableClose":false,
+  "fixedPos":false
+}

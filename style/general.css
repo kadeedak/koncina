@@ -1,0 +1,22 @@
+#content{
+	height:800px;
+	width:1000px;
+	background-color:#dddddd;
+	margin:0 auto;
+}
+#left-panel{
+	height:100%;
+	width:20%;
+	background-color:#bbbbbb;
+	float:left;
+
+}
+#right-panel{
+	height:100%;
+	width:80%;
+	background-color:#999999;
+	float:left;
+}
+#charList{
+	width:100%;
+}

@@ -1,0 +1,33 @@
+.list{
+	max-height: 300px;
+	width: 300px;
+	overflow: auto;
+	float: left;
+	margin-right: 10px;
+}
+
+#lists{
+	width:100%;
+	max-height:300px ;
+	float: left;
+}
+
+#selection{
+	float:left;
+}
+
+.listtittle{
+	width:300px;	
+}
+#left-content{
+	width:800px;
+	min-height: 300px;
+	border:1px solid black;
+	float:left;
+}
+#right-content{
+	width:300px;
+	min-height: 300px;
+	border:1px solid black;
+	float:right;
+}

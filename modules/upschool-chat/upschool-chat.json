@@ -1,0 +1,11 @@
+{
+  "name":"upschool-chat",
+  "displayName":"UpSchool Chat",
+  "posX":100,
+  "posY":0,
+  "width":300,
+  "height":"100%",
+  "disableSlide":false,
+  "disableClose":false,
+  "fixedPos":false
+}

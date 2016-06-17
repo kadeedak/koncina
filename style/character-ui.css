@@ -1,0 +1,38 @@
+#content{
+	height:600px;
+	width:1300px;
+	background-color:#dddddd;
+	margin:0 auto;
+}
+#left-panel{
+	height:100%;
+	width:20%;
+	background-color:#bbbbbb;
+	float:left;
+
+}
+#right-panel{
+	height:100%;
+	width:80%;
+	background-color:#999999;
+	float:left;
+}
+#stat-preview{
+	width:50%;
+	height:200px;
+	background-color:#777777;
+	float:left;
+}
+#module-window{
+	width:50%;
+	height:200px;
+	background-color:#666666;
+	float:left;
+}
+#char-list{
+	width:100%;
+}
+.stat{
+	width:50%;
+	float:left;
+}
